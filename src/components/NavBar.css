@@ -1,7 +1,8 @@
-.nav-link {
+.link {
     margin: 20px;
     font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    font-weight: bolder;
+    font-size: 18px;
+    font-weight: bold;
     color: #151f34 !important;
+    text-decoration: none;
 }

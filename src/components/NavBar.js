@@ -1,14 +1,14 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';
 import './NavBar.css';
 import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
-// import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 
 function NavBar() {
   return (
-    <Navbar fixed="top" bg="transparent" expand="lg">
+    <Navbar bg="transparent" expand="lg">
       <Container>
         <Navbar.Brand href="#home">
             <img
@@ -22,11 +22,12 @@ function NavBar() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
           <Nav >
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#about" >About Us</Nav.Link>
-            <Nav.Link href="#services" >Services</Nav.Link>
-            <Nav.Link href="#contact" >Contact Us</Nav.Link>
-            <Nav.Link href="#faq" >FAQ</Nav.Link>            
+            <Link className='link' to ="/"> Home </Link>  
+            <Link className='link' to ="/about"> About Us </Link>  
+            <Link className='link' to ="/services"> Services </Link> 
+            <Link className='link' to ="/contact-us"> Contact Us </Link> 
+            <Link className='link' to ="/Faq"> FAQ </Link>  
+            
           </Nav>
         </Navbar.Collapse>
       </Container>
