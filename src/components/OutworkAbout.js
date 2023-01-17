@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 function OutworkAbout() {
   return (
     <>
-        <Container>
+        <Container className='section' id='aboutId'>
             <Row>
                 <Col sm={12} lg={6}>
                     <h3>
