@@ -47,12 +47,6 @@ function NavBar() {
               <Link onClick={() => scrollToSection(services)} className='link' to ="/services"> Services </Link>               
               <Link onClick={() => scrollToSection(faq)} className='link' to ="/Faq"> FAQ </Link>  
               <Link onClick={() => scrollToSection(contact)} className='link' to ="/contact-us"> Contact Us </Link> 
-
-              {/* <Link className='link' to="homeId" spy={true} smooth={true} duration={500}> Home </Link>  
-              <Link className='link' to="aboutId" spy={true} smooth={true} duration={500}> About Us </Link>  
-              <Link className='link' to="servicesId" spy={true} smooth={true} duration={500}> Services </Link> 
-              <Link className='link' to="contactId" spy={true} smooth={true} duration={500}> Contact Us </Link> 
-              <Link className='link' to="faqId" spy={true} smooth={true} duration={500}> FAQ </Link>   */}
               
             </Nav>
           </Navbar.Collapse>
