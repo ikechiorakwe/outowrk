@@ -11,7 +11,7 @@ function OutworkAbout() {
                         Outsource your to-do list
                     </h3>
                     <h1>
-                        Virtual Assistants on <br /> Demand
+                        Virtual Assistants on <br /> About
                     </h1>
                     <p>
                     Our virtual assistants are here to take care of all the tasks you <br />
@@ -29,22 +29,7 @@ function OutworkAbout() {
                 />
                 </Col>                
             </Row>
-            {/* <div className='row'>
-                <div className='col-6'>
-                    <section>
-                        <h6>
-                            Hello About
-                        </h6>
-                    </section>
-                </div>
-                <div className='col-6'>
-                    <section>
-                        <h6>
-                            Hello About
-                        </h6>
-                    </section>
-                </div>
-            </div> */}
+            
         </Container> 
     </>
   )

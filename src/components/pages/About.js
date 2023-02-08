@@ -4,7 +4,7 @@ import OutworkAbout from '../OutworkAbout';
 function About() {
   return (
     <>
-        <OutworkAbout /> 
+      <OutworkAbout /> 
     </>
   )
 }
