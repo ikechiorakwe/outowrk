@@ -27,7 +27,7 @@ function NavBar() {
   };
   return (
     <>
-      <Navbar bg="transparent" expand="lg">
+      <Navbar className='navBar'  expand="lg" fixed="top">
         <Container>
           <Navbar.Brand href="/">
             <img

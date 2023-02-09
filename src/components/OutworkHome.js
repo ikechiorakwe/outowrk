@@ -1,17 +1,19 @@
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap'
+import { Container, Row, Col } from 'react-bootstrap';
+import '../../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import './OutworkHome.css';
 
 function OutworkHome() {
   return (
     <>
-        <Container  className='section' id='homeId'>
+        <Container className='home'  id='homeId'>
             <Row>
-                <Col sm={12} lg={6}>
+                <Col sm={12} lg={6} className='align-self-start' >
                     <h3>
-                        Outsource your to-do list
+                        Outsource your tasks to us
                     </h3>
                     <h1>
-                        Virtual Assistants on <br /> Home
+                        Virtual Assistants on <br /> Demand
                     </h1>
                     <p>
                     Our virtual assistants are here to take care of all the tasks you <br />
@@ -20,12 +22,9 @@ function OutworkHome() {
                     their business.
                     </p>
                 </Col>
-                <Col sm={12} lg={6}>
-                <img
-                    src = {require('../assets/images/TODO.png')}                    
-                    // height="120"
-                    // className="d-inline-block align-top"
-                    alt=""
+                <Col sm={12} lg={6} className='align-self-start'>
+                <img className='img'
+                    src = {require('../assets/images/check-list.png')}                    
                 />
                 </Col>                
             </Row>

@@ -1,3 +1,10 @@
+.navBar {
+    /* background-color: #d6f379; */
+    background-color: #CBC3E3;
+    /* background-color: #F8F8FF; */
+    height: 80px;
+}
+
 .link {
     margin: 20px;
     font-family: 'Roboto', sans-serif;
